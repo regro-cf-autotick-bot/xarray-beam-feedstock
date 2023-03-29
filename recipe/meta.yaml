@@ -1,5 +1,5 @@
 {% set name = "xarray-beam" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xarray-beam-{{ version }}.tar.gz
-  sha256: e1a101f35b0b1e127a9c231ea2d16b5137924f9ec8635fa56969cdd58bb9284e
+  sha256: d975d65f0ef1723cd0467e4dde1fcf38f991cdd40c3b40d6897e8cf657f56133
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - dask-core
     - immutabledict
     - python >=3.0
-    - rechunker
+    - rechunker >=0.5.1
     - xarray
     - zarr
 

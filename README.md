@@ -1,11 +1,11 @@
-About xarray-beam
-=================
+About xarray-beam-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xarray-beam-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/google/xarray-beam
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xarray-beam-feedstock/blob/main/LICENSE.txt)
 
 Summary: Distributed Xarray with Apache Beam
 
