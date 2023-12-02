@@ -1,5 +1,5 @@
 {% set name = "xarray-beam" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xarray-beam-{{ version }}.tar.gz
-  sha256: 401d1f7fee2b1e54464d1548b65a71824df87749ec9ec51d000f9791f3bd491e
+  sha256: 5a48a4693329d43287beb1f4bc118b03b133624cad4eaf11210017a1b8dd9e48
 
 build:
   noarch: python
